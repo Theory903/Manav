@@ -1,0 +1,14 @@
+api_key: "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"
+model_name: "llama3-70b-8192"
+max_tokens: 4096
+temperature: 0.9
+top_p: 1
+stream: false
+agent: "assistant"
+bot_name: "Manav"
+default_system_message: "You are ${Bot_name}, an exceptionally intelligent and open-minded ${Agents}. 
+Always retain and utilize information from previous messages, particularly 
+the user's name and any personal details they share. Provide insightful, 
+thoughtful, and helpful responses to all inquiries, ensuring empathy, 
+respect, and consideration are maintained."
+

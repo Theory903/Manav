@@ -1,0 +1,434 @@
+{
+    "Developer Prompts": [
+        {
+            "title": "Code Analysis",
+            "prompt": "Analyze this code: [function or algorithm] and calculate its time complexity using Big O notation. Explain your reasoning step by step. Provide the time complexity for each step and then give the overall time complexity for the entire function or algorithm."
+        },
+        {
+            "title": "Test Case Generation",
+            "prompt": "Create test cases for validating the functionality of a core component in our [project name and description] web application for the following requirements : [enter requirements]. Create as many test cases as required to cover all edge possibilities and do not generate repetitive tests."
+        },
+        {
+            "title": "Code Debugging",
+            "prompt": "Debug the following code snippet {code} for the implementation of XYZ feature [feature description]. Suggest any improvements needed to make the code more efficient without compromising any functionality."
+        },
+        {
+            "title": "Git Command Generation",
+            "prompt": "Generate git commands to [commit/version control/ fork/ required functionality] for repository with [repo structure]."
+        },
+        {
+            "title": "Feature Brainstorming",
+            "prompt": "Act as a brainstorming assistant and suggest [number] ideas for new features to be implemented in [name of app and description] that already has the following features [details of existing features]. Do not repeat ideas."
+        },
+        {
+            "title": "CI/CD Pipeline Setup",
+            "prompt": "Provide a step-by-step guide on how to set up a CI/CD pipeline using [tool name] for a project with the following requirements: [enter requirements]. Include the necessary configuration files and explain the purpose of each step in the pipeline."
+        },
+        {
+            "title": "Code Refactoring",
+            "prompt": "Refactor the following code snippet [code] to improve its readability, maintainability, and performance. Explain the reasoning behind each change you make and how it contributes to the overall improvement of the code."
+        },
+        {
+            "title": "Design Pattern Comparison",
+            "prompt": "Compare and contrast the following design patterns: [pattern 1] and [pattern 2]. Provide examples of scenarios where each pattern would be most appropriate to use and explain the benefits and drawbacks of each pattern in those scenarios."
+        },
+        {
+            "title": "Database Schema Design",
+            "prompt": "Suggest a database schema design for a [type of application, e.g., e-commerce, social media] application with the following requirements: [enter requirements]. Provide an Entity-Relationship Diagram (ERD) and explain the relationships between the entities."
+        },
+        {
+            "title": "Error Handling Strategy",
+            "prompt": "Create a comprehensive error handling and logging strategy for a [type of application] application. Explain how to handle different types of errors (e.g., user input errors, system errors), when to log errors, and what information should be included in the logs."
+        },
+        {
+            "title": "Authentication Implementation",
+            "prompt": "Provide a detailed explanation of how to implement authentication and authorization in a [type of application, e.g., web, mobile] application using [authentication framework or library]. Include code snippets to illustrate the implementation and explain the best practices for securing user data."
+        },
+        {
+            "title": "Algorithm Comparison",
+            "prompt": "Compare the performance of different algorithms for solving the [specific problem, e.g., sorting, searching] problem. Provide the time and space complexity of each algorithm and explain which algorithm would be most suitable for different input sizes and constraints."
+        },
+        {
+            "title": "Database Query Optimization",
+            "prompt": "Explain how to optimize the performance of a database query that is currently taking a long time to execute. Provide specific optimization techniques, such as indexing, query restructuring, and caching, and explain how each technique can improve the query's performance."
+        },
+        {
+            "title": "README Creation",
+            "prompt": "As a technical writing assistant, help create a README file for a [type of project, e.g., open-source library, API] project. Include sections for installation, usage, configuration, contributing, and licensing. Provide clear and concise explanations and examples for each section."
+        }
+    ],
+    "Technical Writing Prompts": [
+        {
+            "title": "Technical Specification",
+            "prompt": "Develop a technical specification document for a [mobile app X] that performs [function of product and feature]. Develop the document according to [project hardware and software stack] and adhere to [XYZ protocols]."
+        },
+        {
+            "title": "User Guide Creation",
+            "prompt": "Write a user guide for setting up and configuring our latest [product name] software with [detailed product description with key features and use cases]. Include FAQs and a troubleshooting section for common issues users may face. The guide should be 2000 words."
+        },
+        {
+            "title": "Controversial Product Analysis",
+            "prompt": "Generate a 700-word article discussing the pros and cons of a new controversial product [XYZ with detailed description]."
+        },
+        {
+            "title": "Research Citation",
+            "prompt": "Find research paper citations in [XYZ] field and [ABC] topic for [section of text from research paper]."
+        },
+        {
+            "title": "Research Summary",
+            "prompt": "Summarize a research document [upload document] and present the key findings in less than 10 bullet points."
+        },
+        {
+            "title": "White Paper Development",
+            "prompt": "Write a white paper on the impact of [emerging technology] on [specific industry]. Include an introduction, background information, key challenges and opportunities, case studies, and a conclusion. The white paper should be well-researched, informative, and persuasive, targeting decision-makers in the industry."
+        },
+        {
+            "title": "API Documentation",
+            "prompt": "Create a comprehensive API documentation for [API name] that includes an overview, authentication methods, endpoints, request and response formats, error codes, and code examples in [programming languages]. Ensure that the documentation is clear, concise, and easy to navigate for developers."
+        },
+        {
+            "title": "Tutorial Series",
+            "prompt": "Develop a series of tutorial articles for [software or hardware product] that covers installation, configuration, basic usage, advanced features, and best practices. Each article should be around 1000 words and include step-by-step instructions, screenshots, and code snippets where applicable."
+        },
+        {
+            "title": "Case Study Writing",
+            "prompt": "Write a case study highlighting the successful implementation of [product or service] in [client company]. Include background information, challenges faced, solution implemented, results achieved, and lessons learned. The case study should be engaging, informative, and demonstrate the value of the product or service."
+        },
+        {
+            "title": "Data Sheet Creation",
+            "prompt": "Create a data sheet for [technical product] that includes specifications, features, benefits, applications, and compatibility information. Use a clear and concise layout with bullet points, tables, and images where appropriate. The data sheet should be technically accurate and help potential customers make informed decisions."
+        },
+        {
+            "title": "Press Release Writing",
+            "prompt": "Write a press release announcing the launch of [new product or service]. Include a headline, subheadline, introduction, key features and benefits, quotes from company representatives, and a call-to-action. The press release should be newsworthy, informative, and adhere to standard press release format and style."
+        },
+        {
+            "title": "Technology Comparison Blog",
+            "prompt": "Develop a technical blog post comparing [technology 1] and [technology 2] for [specific use case]. Include an introduction, overview of each technology, comparison criteria (e.g., performance, scalability, cost), and a conclusion with recommendations. The blog post should be informative, unbiased, and help readers make informed decisions."
+        },
+        {
+            "title": "User Manual Creation",
+            "prompt": "Create a user manual for [complex technical product] that includes safety instructions, installation guide, operation instructions, maintenance procedures, and troubleshooting tips. Use a clear and logical structure with headings, subheadings, numbered steps, and visual aids such as diagrams and flowcharts. The manual should be comprehensive yet easy to follow for users with varying technical expertise."
+        },
+        {
+            "title": "Technical Report Writing",
+            "prompt": "Write a technical report analyzing the performance of [system or process] based on [data or metrics]. Include an executive summary, introduction, methodology, results, discussion, conclusions, and recommendations. Use charts, graphs, and tables to present data effectively. The report should be well-structured, evidence-based, and provide actionable insights for stakeholders."
+        },
+        {
+            "title": "FAQ Development",
+            "prompt": "Develop a FAQ section for [technical product or service] that addresses common questions and concerns from users. Organize the questions into categories, provide clear and concise answers, and include links to additional resources or documentation where relevant. The FAQ section should be user-friendly, and informative, and help reduce the workload on customer support teams."
+        }
+    ],
+    "Productivity and Task Management Prompts": [
+        {
+            "title": "Meeting Notes Summary",
+            "prompt": "Review the provided meeting notes and create a concise summary that captures the essential information, focusing on key takeaways and action items assigned to specific individuals or departments during the meeting. Use clear and professional language, and logically organize the summary using bullet points."
+        },
+        {
+            "title": "Deadline Management Tools",
+            "prompt": "Suggest tools to manage deadlines in my work schedule and explain how each tool works. I have [number] deadlines a week and need reminders at least 3 hours before each deadline. Based on these parameters, select the most appropriate tools."
+        },
+        {
+            "title": "Procrastination Reduction",
+            "prompt": "I have been procrastinating [specifics of task] for [number] of days/weeks. Suggest methods to improve my productivity and how I can reduce procrastination."
+        },
+        {
+            "title": "Study Schedule Design",
+            "prompt": "Design a finals week revision schedule for a university student with [List of subjects]. The exams are on the following days [full detailed exam schedule with time]. Transit time from the place of living to the university is [X] minutes."
+        },
+        {
+            "title": "Project Timeline Creation",
+            "prompt": "I have a project with the following tasks and deadlines: [list tasks and deadlines]. Create a project timeline with milestones and a Gantt chart to help me visualize the project schedule and stay on track. Identify any potential bottlenecks or dependencies between tasks."
+        },
+        {
+            "title": "Task Prioritization",
+            "prompt": "I need to prioritize my tasks for the week. I have the following tasks: [list tasks]. Help me prioritize them using the Eisenhower Matrix, categorizing each task as urgent/important, important/not urgent, urgent/not important, or neither urgent nor important. Provide a brief explanation for each categorization."
+        },
+        {
+            "title": "GTD System Setup",
+            "prompt": "I want to implement the Getting Things Done (GTD) methodology to manage my tasks and projects. Explain the key principles of GTD and provide a step-by-step guide on how to set up a GTD system using [preferred tool or app]. Include examples of how to capture, clarify, organize, reflect, and engage with tasks."
+        },
+        {
+            "title": "Pomodoro Technique Implementation",
+            "prompt": "I have a habit of multitasking, which is affecting my productivity. Provide a detailed explanation of the Pomodoro Technique and how it can help me focus on one task at a time. Include a sample daily schedule that incorporates Pomodoro sessions, short breaks, and longer breaks. Suggest tools or apps that can help me implement this technique effectively."
+        },
+        {
+            "title": "Boundary Setting Guide",
+            "prompt": "I have trouble saying no to additional tasks and commitments, which leads to overwork and burnout. Provide a guide on how to set boundaries and politely decline requests when necessary. Include example scripts for common scenarios, such as declining a meeting invitation or a request to take on an additional project."
+        },
+        {
+            "title": "Email Management Best Practices",
+            "prompt": "I want to improve my email management skills to reduce the time I spend in my inbox. Provide a comprehensive guide on email management best practices, including tips for processing emails efficiently, using filters and labels, and setting aside dedicated time for checking and responding to emails. Recommend tools or plugins that can help automate email management tasks."
+        },
+        {
+            "title": "Long-term Goal Planning",
+            "prompt": "I have a long-term goal of [specific goal] that I want to achieve in the next [timeframe]. Break down this goal into smaller, actionable steps and create a roadmap with milestones and deadlines. Guide how to track progress, stay motivated, and adjust the plan as needed."
+        },
+        {
+            "title": "Virtual Meeting Engagement",
+            "prompt": "I struggle with staying focused during virtual meetings. Provide a list of best practices for staying engaged and productive during virtual meetings, such as minimizing distractions, preparing in advance, actively participating, and following up on action items. Include tips for meeting organizers to make virtual meetings more effective and efficient."
+        },
+        {
+            "title": "Time Estimation Improvement",
+            "prompt": "I want to improve my time estimation skills for tasks and projects. Provide a guide on how to break down tasks into smaller components, consider dependencies and risks, and use historical data to make more accurate time estimates. Include tips for communicating estimates to stakeholders and managing expectations."
+        },
+        {
+            "title": "Personal Finance Management",
+            "prompt": "I need to create a system for managing my finances. Provide a step-by-step guide on how to create a budget, track expenses, set financial goals, and automate savings. Recommend tools or apps that can help simplify personal finance management and provide insights into spending habits."
+        }
+    ],
+    "Content Creation Prompts": [
+        {
+            "title": "Blog Posting Schedule",
+            "prompt": "Generate a posting schedule with the date and time of posting for [number] of blogs spread over two weeks [specify date] taking into account weekends and holidays. The schedule should optimize engagement by suggesting high activity times."
+        },
+        {
+            "title": "Copy Editing",
+            "prompt": "You are a copy editor with a deep understanding of tone, style of writing, and grammar. Reduce the number of words in [original text post] to 200 and reframe it in a positive tone. Use words like [list of positive buzzwords] and refine the text by correcting grammar and sentence composition wherever required."
+        },
+        {
+            "title": "Pre-Wedding Shoot Ideas",
+            "prompt": "Suggest location and concept ideas for a pre-wedding shoot. Describe each concept in detail with 400 words each and explain how it will make the relationship of the couple shine."
+        },
+        {
+            "title": "Podcast Introduction",
+            "prompt": "Write a 400-word introduction for a podcast on [topic]. The podcast will have [number] episodes, each focusing on a different sub-topic. The sub-topics are: [list]. The tone should be light and welcoming with a small mention of the subtopics."
+        },
+        {
+            "title": "Brand Launch Content Ideas",
+            "prompt": "Suggest 5 ideas for content revolving around [new brand/product launch]. The brand is [mission and vision of brand] and the tone of the content should be [Tone]. Explain each idea and the medium through which they will be shared in approximately 200 words."
+        },
+        {
+            "title": "Long-form Article Brief",
+            "prompt": "Create a content brief for a long-form article on [topic] that includes an outline, target audience, key takeaways, and suggested references. The brief should provide clear guidance for the writer to create a well-structured, informative, and engaging article of around 2000 words."
+        },
+        {
+            "title": "User-Generated Content Prompts",
+            "prompt": "Write a series of 5 user-generated content (UGC) prompts for [product or service]. Each prompt should encourage customers to share their experiences, stories, or creative ideas related to the product or service. Include examples of the type of content you're looking for and any incentives for participation."
+        },
+        {
+            "title": "Interactive Content Ideas",
+            "prompt": "Generate a list of 10 ideas for interactive content pieces, such as quizzes, polls, surveys, or calculators, related to [industry or niche]. Each idea should be engaging, relevant, and valuable to the target audience. Include a brief description of each idea, target audience, and potential outcomes or insights to be gained."
+        },
+        {
+            "title": "Customer Success Stories",
+            "prompt": "Write a series of 5 customer success stories for [product or service]. Each story should highlight a different customer persona, their challenges, how they used the product or service to overcome those challenges, and the results they achieved. Include quotes from the customers and visuals to bring the stories to life."
+        },
+        {
+            "title": "Webinar Series Topics",
+            "prompt": "Generate a list of 10 topic ideas for a webinar series on [industry or niche]. Each topic should be relevant, timely, and valuable to the target audience. Include a brief description of each topic, target audience, and potential speakers or experts to invite."
+        },
+        {
+            "title": "Comprehensive Guide",
+            "prompt": "Create a comprehensive guide on [topic] that covers everything from beginner to advanced level. The guide should be around 5000 words and include an introduction, table of contents, main body with subheadings, conclusion, and additional resources."
+        }
+    ],
+    "UI/UX Prompts": [
+        {
+            "title": "Visual Style Guide",
+            "prompt": "Design a cohesive visual style guide in 2000 words for [SaaS platform name], including typography, colour palette, iconography, and UI element styles that align with the brand identity : [mission and vision of brand]. Describe how the visual identity facilitates usability and accessibility in 200 more words."
+        },
+        {
+            "title": "Onboarding Experience Redesign",
+            "prompt": "Apply a design thinking framework to reimagine the onboarding experience for the [SaaS product name] in 1000 words, empathizing with new users and prototyping the optimal flow. Incorporate user journey mapping and service blueprints to better understand the onboarding experience."
+        },
+        {
+            "title": "Usability Report",
+            "prompt": "Generate a usability report for a competing product website by analyzing the uploaded images as well as this user feedback : [ user feedback ] and identify areas of improvement."
+        },
+        {
+            "title": "One-Page Website",
+            "prompt": "Create a one-page website based on these specifications: [specifications], delivered as an HTML file with embedded JavaScript and CSS. The website should incorporate a variety of engaging and interactive design features: [features]. Ensure that the design is visually appealing and user-friendly."
+        },
+        {
+            "title": "Gamification Techniques",
+            "prompt": "Suggest 10 gamification techniques for a learning app [app name and description] with the target audience aged [specify age]"
+        },
+        {
+            "title": "Heuristic Evaluation",
+            "prompt": "Conduct a heuristic evaluation of [website or app] based on Jakob Nielsen's 10 usability heuristics. Provide a detailed analysis of each heuristic, identifying any violations or areas for improvement. Include specific examples and recommendations for enhancing the overall user experience."
+        },
+        {
+            "title": "Mobile App Wireframe",
+            "prompt": "Design a mobile app wireframe for a [type of app] that includes the following features: [list of features]. Create a user flow diagram that illustrates the main user journey through the app, from onboarding to achieving the primary goal. Provide annotations to explain each screen and interaction."
+        },
+        {
+            "title": "Accessibility Checklist",
+            "prompt": "Develop a comprehensive accessibility checklist for [website or app] that covers the following areas: visual design, content structure, keyboard navigation, and assistive technology compatibility. Provide specific guidelines and best practices for each area, along with examples of how to implement them."
+        },
+        {
+            "title": "User Personas",
+            "prompt": "Create a set of user personas for a [type of product or service], based on the following research data: [summary of user research]. Each persona should include a name, photo, background, goals, challenges, and key behaviors. Explain how these personas can inform the design process and help create a more user-centred experience."
+        },
+        {
+            "title": "Competitive Analysis",
+            "prompt": "Conduct a competitive analysis of [3-5 competing products or services] in the [industry or niche]. Evaluate each competitor based on their user experience, visual design, functionality, and unique value proposition. Identify the strengths and weaknesses of each competitor and provide recommendations for how to differentiate and improve upon their offerings."
+        }
+    ],
+    "Data Science Prompts": [
+        {
+            "title": "Excel Formulas",
+            "prompt": "As an Excel formula expert, create Excel formulas to perform data manipulations described by the user. The structure of the Excel sheet is: [column names and data types in each column]. Query the user till you have all the required information to design the required formulas."
+        },
+        {
+            "title": "Machine Learning Model Debugging",
+            "prompt": "Debug the following code for a machine learning model: [code]. Suggest alternative models to test against the accuracy of this model. A sample of the data is provided in the file uploaded."
+        },
+        {
+            "title": "Generate CSV",
+            "prompt": "Generate a CSV spreadsheet about the books in a library. Include a minimum of [number] rows with the following columns : [columns]. Ensure the data covers [specifications like age group and genres]."
+        },
+        {
+            "title": "SQL Queries",
+            "prompt": "Transform the following natural language requests into valid SQL queries. Assume a database with the following schema: [schema] and provide the queries that would get the desired output. Natural language requests: [list]."
+        },
+        {
+            "title": "Model Performance Analysis",
+            "prompt": "Analyze the following [performance metric] for the model implemented: [code] and suggest methods to improve the quality and clarity of the code."
+        },
+        {
+            "title": "Exploratory Data Analysis",
+            "prompt": "Create a Python script to perform exploratory data analysis (EDA) on the provided dataset [description or attachment]. The script should include data loading, cleaning, visualization, and statistical analysis. Provide insights and recommendations based on the findings."
+        },
+        {
+            "title": "Machine Learning Pipeline",
+            "prompt": "Develop a machine learning pipeline for a [classification or regression] problem using the following dataset: [description or attachment]. The pipeline should include data preprocessing, feature engineering, model selection, hyperparameter tuning, and evaluation. Compare the performance of at least three different algorithms and provide a detailed report on the results."
+        },
+        {
+            "title": "Experiment Design",
+            "prompt": "Design an experiment to test the effectiveness of a new [feature or algorithm] in a [specific domain, e.g., recommendation system, fraud detection]. Define the hypothesis, metrics, and methodology for the experiment. Provide a step-by-step guide for implementing the experiment and analyzing the results."
+        },
+        {
+            "title": "SQL Query Optimization",
+            "prompt": "Optimize the following SQL query for better performance: [query]. Explain the bottlenecks in the current query and provide an improved version with appropriate indexes, join techniques, and query structure. Test the optimized query on a sample database and report the performance gains."
+        }
+    ],
+    "Education Prompts": [
+        {
+            "title": "Lesson Plan",
+            "prompt": "Create a comprehensive, engaging, and well-structured lesson plan on the given subject: [subject]. Design the plan for a [x minute] class for the age group of [age group]. Provide a detailed outline of the lesson breaking it down into an introduction, main activities, and a conclusion."
+        },
+        {
+            "title": "Text Quality Evaluation",
+            "prompt": "Compare and evaluate the quality of written text based on defined criteria and standards. Criteria: [list], Text1: [text], and Text2: [ideal answer text]."
+        },
+        {
+            "title": "Text Simplification",
+            "prompt": "take the following text: {text} and rewrite it in a way that is easy for young learners in grades 3-5 to read and understand. Simplify advanced vocabulary, break down long sentences, explain difficult concepts in plain language, and present the information in a clear, engaging way."
+        },
+        {
+            "title": "Essay Writing",
+            "prompt": "Write a 500-word essay weighing the pros and cons of a debate topic: [topic] taking into account legal, ethical, and social."
+        },
+        {
+            "title": "Problem-Solving Explanation",
+            "prompt": "Give a step-by-step explanation of how to solve this problem : [image of the problem]. Explain the reasoning behind each step."
+        },
+        {
+            "title": "Formative Assessment Strategies",
+            "prompt": "Develop a series of formative assessment strategies for a unit on [subject] that align with the following learning objectives: [list objectives]. Provide examples of each assessment type, such as quizzes, group projects, or reflective writing assignments, and explain how they measure student progress towards the objectives."
+        },
+        {
+            "title": "Growth Mindset Strategies",
+            "prompt": "Develop a set of strategies for fostering a growth mindset in students, particularly when facing challenging tasks or setbacks. Provide examples of how to incorporate these strategies into classroom routines, feedback, and assessments. Include specific language or phrases that teachers can use to encourage perseverance, celebrate effort, and reframe failures as learning opportunities."
+        },
+        {
+            "title": "Presentation Rubric",
+            "prompt": "Create a rubric for evaluating student presentations on a scale of 1-4 across the following criteria: content knowledge, organization, delivery, visual aids, and audience engagement. Provide descriptors for each level of performance and a space for comments or feedback. Explain how the rubric can be used as both a formative and summative assessment tool."
+        },
+        {
+            "title": "Project-Based Learning Unit",
+            "prompt": "Design a project-based learning (PBL) unit for a [grade level] class that integrates multiple subjects, such as [subject 1], [subject 2], and [subject 3]. The project should address a real-world problem or question, involve student choice and collaboration, and culminate in a public product or presentation. Provide a detailed overview of the project stages, timeline, and assessment criteria."
+        },
+        {
+            "title": "Digital Literacy Strategies",
+            "prompt": "Develop a set of strategies for promoting digital literacy and responsible technology use among students. Include examples of how to integrate these strategies into various subject areas, such as research projects, media analysis, or online collaborations. Provide resources or templates for digital citizenship contracts, online safety guidelines, or ethical decision-making frameworks."
+        }
+    ],
+    "Sales and Marketing Prompts": [
+        {
+            "title": "Personalized Sales Email",
+            "prompt": "Create a personalized sales email for a potential customer for a company [company name and description] selling [product name and description] in the consumer demographic of [demographic]."
+        },
+        {
+            "title": "Product Customization",
+            "prompt": "What product customization for [product name and description] would you recommend for a customer with the details : [customer details]?"
+        },
+        {
+            "title": "Lead Generation Ideas",
+            "prompt": "Explain 5 creative ways to generate leads for [company name and description]. The company is [type of service] and operates on [platforms]."
+        },
+        {
+            "title": "Email Newsletter Copy",
+            "prompt": "Write a 200-word email newsletter copy that summarizes the company's recent news and offers of interest to its subscriber list. Company: [name], Content ; [Recent newsletters] Subscribers: [Subscribers data]."
+        },
+        {
+            "title": "Marketing Strategy",
+            "prompt": "Provide recommendations on the optimal marketing channels, messaging, and targeting strategy for our upcoming [campaign type] promoting [offer/product] in 1000 words."
+        },
+        {
+            "title": "Customer Retention Email Campaign",
+            "prompt": "Create a customer retention email campaign for [company or product] that targets customers who haven't purchased in the last [time period]. The campaign should include a series of personalized emails that offer exclusive discounts, product recommendations, or valuable content based on the customer's previous behaviour and preferences. Provide examples of subject lines, email copy, and calls to action for each email in the series."
+        },
+        {
+            "title": "Cold Call Sales Script",
+            "prompt": "Develop a sales script for a cold call to a potential customer in the [industry or niche] for a company selling [product or service]. The script should include an introduction, qualifying questions, a value proposition, handling objections, and a clear call to action. Provide examples of personalization and active listening techniques to build rapport and trust with the prospect."
+        },
+        {
+            "title": "Referral Marketing Program",
+            "prompt": "Develop a referral marketing program for [company or product] that incentivizes existing customers to refer their friends and family. The program should include clear rewards, such as discounts, free products, or exclusive access, for both the referrer and the referee. Provide examples of referral messaging, tracking mechanisms, and success stories to showcase the program's potential impact on customer acquisition and loyalty."
+        }
+    ],
+    "Finance and Investment Prompts": [
+        {
+            "title": "Discounted Cash Flow Model",
+            "prompt": "Build a comprehensive discounted cash flow (DCF) model to calculate the intrinsic value of [company name] and determine an appropriate buy/sell price range. Take into account the uploaded cash flow statement and profit and loss statement."
+        },
+        {
+            "title": "Fundamental Analysis",
+            "prompt": "Perform a detailed fundamental analysis on [company name] to assess its financial health, competitive positioning, growth prospects, and valuation in 1000 words. Consider [financial statements], [company description and product portfolio], [previous revenue data]."
+        },
+        {
+            "title": "Company Investability Analysis",
+            "prompt": "Analyze the investability and prospects of [company name] with profit-loss data [uploaded file] in 300 words."
+        },
+        {
+            "title": "Investment Portfolio Summary",
+            "prompt": "Summarize the uploaded investment portfolio and list your key findings, focusing on ROI, long-term dividends, and risk tolerance."
+        },
+        {
+            "title": "Stock Purchase Suggestions",
+            "prompt": "Analyze uploaded data on market trends and suggest stocks for purchase that are likely to add value to the portfolio. Take into account current holdings: [current portfolio details] and investable amount: [amount]."
+        },
+        {
+            "title": "Financial Model for New Project",
+            "prompt": "Create a financial model to assess the feasibility and profitability of a new [project or investment opportunity]. The model should include assumptions for revenue, expenses, capital expenditures, and financing, based on market research and industry benchmarks. Provide sensitivity analysis to identify key drivers and risk factors, along with a break-even analysis and projected return on investment (ROI)."
+        },
+        {
+            "title": "Personal Financial Plan",
+            "prompt": "Develop a comprehensive budget and financial plan for an individual or family with the following financial goals: [list goals, e.g., saving for retirement, buying a house, or funding college education]. Consider factors such as income, expenses, assets, liabilities, and risk tolerance. Provide recommendations for optimizing cash flow, reducing debt, and investing for long-term growth, along with a projected net worth and retirement savings over a [number of years] period."
+        }
+    ],
+    "Customer Service Prompts": [
+        {
+            "title": "Troubleshooting Guide",
+            "prompt": "Provide a step-by-step troubleshooting guide that can be used to help a customer resolve the error they're encountering with our [product/service name]. Our company is [company name] and the product details are : [technical specifications, features]"
+        },
+        {
+            "title": "Customer Lifecycle Email Templates",
+            "prompt": "Write a series of email templates we can use to follow up with customers at different stages of their lifecycle like onboarding, feedback requests or upsell opportunities for our company [Name] that provides [services] service."
+        },
+        {
+            "title": "Customer Feedback Analysis",
+            "prompt": "Analyze customer feedback data from reviews and surveys to identify key themes and opportunities and improve the customer experience. Reviews: [reviews] Survey data: [data]."
+        },
+        {
+            "title": "Customer Loyalty Program",
+            "prompt": "Develop a customer loyalty program framework that rewards engaged users, incentivizes referrals, and encourages repeat business for Company [XYZ] with [company details]. Suggest [number] different schemes in the program that cover the above-mentioned points."
+        },
+        {
+            "title": "Customer Base Segmentation",
+            "prompt": "Segment our customer base based on factors like purchase history, support interactions, and demographic data to personalize our communications and offerings. Analyze this customer data: [data] with these columns: [columns]."
+        }
+    ]
+}

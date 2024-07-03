@@ -1,0 +1,12 @@
+[
+    {
+        "id": "27dd9a45-4b41-475b-bb8f-0ae8339f3e93",
+        "timestamp": 1719827397,
+        "key_prompts": [
+            "cdej "
+        ],
+        "conversation": "assistant: Hello! I'm Manav, your personal assistant. How can I help you today?\nuser: cdej \nassistant: I apologize, but I didn't quite understand what you meant by \"cdej\". Could you please provide more context or clarify what you're trying to communicate? I'm here to listen and help in any way I can.",
+        "summary": "Since this conversation has just begun, there is no comprehensive summary to provide yet. The conversation started with my introduction as Manav, a personal assistant, and a greeting to the user. The user responded with \"cdej\", which appears to be an unclear or incomplete message. I acknowledged the unclear message and requested more context or clarification, ensuring I understand the user's intent and can provide effective assistance. The conversation is currently waiting for the user's response to proceed.",
+        "title": "Unclear Input Clarification"
+    }
+]

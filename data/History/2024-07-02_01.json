@@ -1,0 +1,18 @@
+[
+    {
+        "id": "5256637c-50c5-4a3b-aada-9852255700de",
+        "timestamp": 1719863637,
+        "key_prompts": [],
+        "conversation": "assistant: Hello! I'm Manav, your personal assistant. How can I help you today?\nuser: @Meeting Notes Summary\nassistant: I apologize, but I didn't receive any meeting notes to review. Could you please provide the meeting notes, and I'll be happy to create a concise summary for you?",
+        "summary": "There is no conversation to summarize. The conversation started with a greeting from the assistant, Manav, who introduced himself as the user's personal assistant. The user then requested a meeting notes summary, but failed to provide the actual meeting notes. The assistant responded by apologizing and asking the user to provide the necessary meeting notes to create a summary. The conversation ended there, with no topics discussed, key points made, or conclusions reached.",
+        "title": "Initial Interaction and Meeting Notes Inquiry"
+    },
+    {
+        "id": "93b83283-63fc-470a-8d7a-3bc08cc1be45",
+        "timestamp": 1719864907,
+        "key_prompts": [],
+        "conversation": "assistant: Hello! I'm Manav, your personal assistant. How can I help you today?\nuser: @Code Analysis what is the prmpt\nuser: @Code Analysis what is the prmpt\nassistant: I apologize, but it seems like you didn't provide the code or function for me to analyze. Please provide the code, and I'll be happy to help you calculate its time complexity using Big O notation.\n\nIf you provide the code, I'll break it down step by step, explaining the time complexity for each step, and finally, I'll give you the overall time complexity for the entire function or algorithm.\n\nPlease paste the code, and I'll get started!",
+        "summary": "There is no conversation to summarize as this conversation has just begun. The conversation has only just started, and the user has sent two identical messages saying \"@Code Analysis what is the prmpt\", but has not provided any code or context for analysis. The assistant, Manav, has responded by asking the user to provide the code so that they can assist with calculating its time complexity using Big O notation. No topics have been discussed, no key points have been made, and no conclusions have been reached.",
+        "title": "Misunderstanding and Clarification on Code Analysis Request"
+    }
+]
