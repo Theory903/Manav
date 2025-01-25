@@ -1,4 +1,4 @@
-api_key: "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"
+api_key: "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"
 model_name: "llama3-70b-8192"
 max_tokens: 4096
 temperature: 0.9
